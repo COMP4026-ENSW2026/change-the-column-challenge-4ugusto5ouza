@@ -7,10 +7,34 @@ Adicionar novo pet:
     <input id="name" name="name" type="text" /> <br/>
 
     <label for="color">Cor</label>
-    <input id="color" name="color" type="text" /> <br/>
+    <select name="color" id="color">
+        <option value="Azul">Azul</option>
+        <option value="Branco">Branco</option>
+        <option value="Preto">Preto</option>
+        <option value="Amarelo">Amarelo</option>
+        <option value="Marrom">Marrom</option>
+        <option value="Vermelho">Vermelho</option>
+        <option value="Cinza">Cinza</option>
+        <option value="Bege">Bege</option>
+        <option value="Laranja">Laranja</option>
+        <option value="Roxo">Roxo</option>
+    </select> <br/>
 
     <label for="specie">Especie</label>
-    <input id="specie" name="specie" type="text" /> <br/>
+    <select name="specie" id="specie">
+        <option value="Gato">Gato</option>
+        <option value="Cachorro">Cachorro</option>
+        <option value="Tartaruga">Tartaruga</option>
+        <option value="Papagaio">Papagaio</option>
+        <option value="Pokemon">Pokemon</option>
+        <option value="Peixe">Peixe</option>
+        <option value="Cavalo">Cavalo</option>
+        <option value="Camaleao">Camaleao</option>
+        <option value="Dragão de Komodo">Dragão de Komodo</option>
+        <option value="Zebra">Zebra</option>
+        <option value="Coelho">Coelho</option>
+        <option value="Cobra">Cobra</option>
+    </select> <br/>
 
     <label for="size">Size</label>
     <select name="size" id="size">
